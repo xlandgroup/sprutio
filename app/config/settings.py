@@ -11,8 +11,8 @@ app_modules = [
 
 sys.path = app_modules + sys.path
 
-DEFAULT_LANGUAGE = 'ru'
-DEFAULT_LOCALE = 'ru_RU'
+DEFAULT_LANGUAGE = 'en'
+DEFAULT_LOCALE = 'en_US'
 DEFAULT_DATABASE = 'fm.db'
 TRANSLATIONS_PATH = os.path.join(APP_PATH, "i18n")
 
